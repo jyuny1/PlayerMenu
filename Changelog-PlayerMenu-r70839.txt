@@ -1,0 +1,65 @@
+------------------------------------------------------------------------
+r70839 | scorpio0920 | 2008-04-22 01:45:45 -0400 (Tue, 22 Apr 2008) | 3 lines
+Changed paths:
+   A /trunk/PlayerMenu/Locale.zhCN.lua (from /trunk/PlayerMenu/Locale.zhc.lua:70838)
+   A /trunk/PlayerMenu/Locale.zhTW.lua (from /trunk/PlayerMenu/Locale.zht.lua:70838)
+   D /trunk/PlayerMenu/Locale.zhc.lua
+   D /trunk/PlayerMenu/Locale.zht.lua
+
+PlayerMenu:
+- Tweak file name (Uppercase)
+- All locale file name tweak completed.
+------------------------------------------------------------------------
+r70838 | scorpio0920 | 2008-04-22 01:43:52 -0400 (Tue, 22 Apr 2008) | 2 lines
+Changed paths:
+   A /trunk/PlayerMenu/Locale.zhc.lua (from /trunk/PlayerMenu/Locale.zhcn.lua:70837)
+   D /trunk/PlayerMenu/Locale.zhcn.lua
+   A /trunk/PlayerMenu/Locale.zht.lua (from /trunk/PlayerMenu/Locale.zhtw.lua:70837)
+   D /trunk/PlayerMenu/Locale.zhtw.lua
+
+PlayerMenu:
+- Tweak file name. (lowcase)
+------------------------------------------------------------------------
+r70837 | scorpio0920 | 2008-04-22 01:37:43 -0400 (Tue, 22 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/PlayerMenu/Locale.koKR.lua
+   M /trunk/PlayerMenu/Locale.zhcn.lua
+   M /trunk/PlayerMenu/Locale.zhtw.lua
+
+PlayerMenu:
+- Update zhTW localization.
+- Fixed locale string again.
+------------------------------------------------------------------------
+r70836 | scorpio0920 | 2008-04-22 01:34:19 -0400 (Tue, 22 Apr 2008) | 3 lines
+Changed paths:
+   A /trunk/PlayerMenu/Locale.enUS.lua (from /trunk/PlayerMenu/Locale.lua:70835)
+   D /trunk/PlayerMenu/Locale.lua
+   M /trunk/PlayerMenu/PlayerMenu.toc
+
+PlayerMenu:
+- Rename Locale.lua -> Locale.enUS.lua
+- Fixed locale string.
+------------------------------------------------------------------------
+r70828 | hshh | 2008-04-21 23:41:29 -0400 (Mon, 21 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/PlayerMenu
+   M /trunk/PlayerMenu/Locale.koKR.lua
+   M /trunk/PlayerMenu/Locale.lua
+   M /trunk/PlayerMenu/Locale.zhcn.lua
+   M /trunk/PlayerMenu/Locale.zhtw.lua
+   M /trunk/PlayerMenu/PlayerMenu.lua
+   M /trunk/PlayerMenu/PlayerMenu.toc
+   A /trunk/PlayerMenu/Spell.lua
+   A /trunk/PlayerMenu/embeds.xml
+   D /trunk/PlayerMenu/libs
+
+PlayerMenu: Ace3 codes. No more other libs longer. Please fix locazation, thank you.
+------------------------------------------------------------------------
+r67827 | hshh | 2008-04-03 03:53:08 -0400 (Thu, 03 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/PlayerMenu/PlayerMenu.lua
+   M /trunk/PlayerMenu/PlayerMenu.toc
+   M /trunk/PlayerMenu/libs
+
+PlayerMenu: using LibBabble-Spell-3.0 now
+------------------------------------------------------------------------

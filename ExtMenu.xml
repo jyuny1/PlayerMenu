@@ -1,0 +1,195 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Button name="PMEM_ButtonTemplate" inherits="SecureActionButtonTemplate" virtual="true">
+		<Size>
+			<AbsDimension x="64" y="12"/>
+		</Size>
+		<ButtonText name="$parentNormalText"/>
+		<NormalFont inherits="GameFontNormal" justifyH="LEFT"/>
+		<HighlightFont inherits="GameFontHighlight" justifyH="LEFT"/>
+		<DisabledFont inherits="GameFontDisable" justifyH="LEFT"/>
+		<Scripts>
+			<OnLoad>
+				this:HookScript("OnClick", PlayerMenu.ExtMenu_ButtonOnClick);
+			</OnLoad>
+			<OnEnter>
+				PlayerMenu:ExtMenu_OnEnter(true)
+			</OnEnter>
+			<OnLeave>
+				PlayerMenu:ExtMenu_OnLeave()
+			</OnLeave>
+		</Scripts>
+	</Button>
+	<Frame name="PMEM_Frame" frameStrata="DIALOG" hidden="true" parent="UIParent">
+		<Backdrop bgFile="Interface\Tooltips\UI-Tooltip-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="5" right="5" top="5" bottom="5"/>
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="16"/>
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="16"/>
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<Button name="$parent_Button1" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent" relativePoint="TOP">
+						<Offset>
+							<AbsDimension x="0" y="-12"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button2" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button1" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button3" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button2" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button4" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button3" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button5" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button4" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button6" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button5" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button7" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button6" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button8" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button7" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button9" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button8" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button10" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button9" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button11" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button10" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button12" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button11" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button13" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button12" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button14" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button13" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button15" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button14" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button16" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button15" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button17" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button16" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button18" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button17" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button19" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button18" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button20" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button19" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button21" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button20" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button22" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button21" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button23" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button22" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button24" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button23" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+			<Button name="$parent_Button25" inherits="PMEM_ButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_Button24" relativePoint="BOTTOM"/>
+				</Anchors>
+			</Button>
+		</Frames>
+		<Layers>
+			<Layer>
+				<Texture name="$parentSpellIcon" hidden="true">
+					<Size>
+						<AbsDimension x="32" y="32"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT" relativeTo="$parent" relativePoint="TOPLEFT">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnEnter>
+				PlayerMenu:ExtMenu_OnEnter()
+			</OnEnter>
+			<OnLeave>
+				PlayerMenu:ExtMenu_OnLeave()
+			</OnLeave>
+			<OnLoad>
+				this:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
+				this:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>
